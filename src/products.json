@@ -1,0 +1,22 @@
+[
+  {
+    "name": "iPhone",
+    "price": 1000,
+    "description": "Apple smartphone"
+  },
+  {
+    "name": "Samsung Galaxy",
+    "price": 900,
+    "description": "Android smartphone"
+  },
+  {
+    "name": "MacBook",
+    "price": 2000,
+    "description": "Apple laptop"
+  },
+  {
+    "name": "Dell XPS",
+    "price": 1800,
+    "description": "Powerful laptop"
+  }
+]
