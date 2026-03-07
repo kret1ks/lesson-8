@@ -1,3 +1,8 @@
+import template from "./template.hbs";
+import products from "./products.json";
+
+
+
 const inputRef = document.querySelector("#bookmarkInput")
 const btnRef = document.querySelector("#addBookmarkBtn")
 const listRef = document.querySelector("#bookmarkList")
@@ -115,8 +120,7 @@ checkStorage()
 /////////////////////////////////////////////////////////////////////////
 
 
-import template from "./template.hbs";
-import products from "./products.json";
+
 
 
 const list = document.querySelector("#list");
