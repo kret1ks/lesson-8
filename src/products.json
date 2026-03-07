@@ -1,22 +1,52 @@
 [
   {
-    "name": "iPhone",
+    "name": "iPhone 15 Pro",
     "price": 1000,
-    "description": "Apple smartphone"
+    "description": "Apple smartphone with Titanium design"
   },
   {
-    "name": "Samsung Galaxy",
+    "name": "Samsung Galaxy S24",
     "price": 900,
-    "description": "Android smartphone"
+    "description": "Android smartphone with AI features"
   },
   {
-    "name": "MacBook",
+    "name": "MacBook Air M3",
     "price": 2000,
-    "description": "Apple laptop"
+    "description": "Light and powerful Apple laptop"
   },
   {
-    "name": "Dell XPS",
+    "name": "Dell XPS 15",
     "price": 1800,
-    "description": "Powerful laptop"
+    "description": "Powerful laptop for professionals"
+  },
+  {
+    "name": "Sony WH-1000XM5",
+    "price": 350,
+    "description": "Best noise-canceling headphones"
+  },
+  {
+    "name": "iPad Pro",
+    "price": 1100,
+    "description": "Powerful tablet for creators"
+  },
+  {
+    "name": "Apple Watch Series 9",
+    "price": 400,
+    "description": "Smartwatch with health tracking"
+  },
+  {
+    "name": "Google Pixel 8",
+    "price": 700,
+    "description": "Smartphone with the best Android experience"
+  },
+  {
+    "name": "Asus ROG Zephyrus",
+    "price": 2500,
+    "description": "High-end gaming laptop"
+  },
+  {
+    "name": "AirPods Pro 2",
+    "price": 250,
+    "description": "Compact wireless earbuds from Apple"
   }
 ]

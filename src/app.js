@@ -115,29 +115,21 @@ checkStorage()
 /////////////////////////////////////////////////////////////////////////
 
 
-
-
 import template from "./template.hbs";
 import products from "./products.json";
 
 
-
-const container = document.querySelector("body");
-
-const markup = template(products);
-
-container.insertAdjacentHTML("beforeend", markup);
-
-
+const list = document.querySelector("#list");
 const search = document.querySelector("#search");
 
+list.innerHTML = template(products);
+
+
+
 search.addEventListener("input", (event) => {
-  const value = event.target.value.toLowerCase();
+    const value = event.target.value.toLowerCase();
+    console.log(value);
 
-  const filteredProducts = products.filter(product =>
-    product.name.toLowerCase().includes(value)
-  );
-
-  const markup = template(filteredProducts);
-  container.innerHTML = markup;
-});
+    const render = products.filter(item => item.name.toLowerCase().includes(value))
+    list.innerHTML = template(render)
+})
